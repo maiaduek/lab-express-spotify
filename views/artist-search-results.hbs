@@ -1,0 +1,13 @@
+<h1>Search results:</h1>
+<div class="all-albums-wrapper">
+  {{#each data}}
+    <div class="album-wrapper">
+      <img src={{this.images.[1].url}}>
+      <div class="album-wording">
+        {{this.name}}
+        <a href="/albums/{{this.id}}">View Albums</a>
+      </div>
+    </div>
+
+  {{/each}}
+</div>

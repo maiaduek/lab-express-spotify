@@ -1,0 +1,65 @@
+.home-page-img {
+  width: 80%;
+  position: absolute;
+}
+
+.form {
+  background-color: rgba(172, 167, 167, 0.3);
+  width: 20%;
+  position: relative;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25%;
+  margin-left: 28%;
+}
+
+.home-search-button {
+  background-color: red;
+  color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.home-input {
+  width: 85%;
+  border-radius: 5px;
+}
+
+.all-albums-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.album-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  background-color: grey;
+  color: white;
+  width: 21%
+}
+
+.album-wording {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: fit-content;
+}
+
+.track {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
